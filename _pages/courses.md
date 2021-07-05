@@ -134,7 +134,7 @@ Bin Wang. An Explicit Multi-Conservation Finite-Difference Scheme for Shallow-Wa
 ### Geophysical Fluid Dynamics
 ##### 地球物理流体力学
 
-Prof. [Yong Luo](https://www.dess.tsinghua.edu.cn/en/info/1090/1296.htm) 
+Lead by Prof. [Yong Luo](https://www.dess.tsinghua.edu.cn/en/info/1090/1296.htm) 
 
 This course introduces the dynamical properties of the large scale atmospheric and oceanic motions and the interaction between them, i.e. the dynamic behaviors of geophysical fluid under conditions of gravitation, rotation, stratification and viscosity, which include inviscid shallow-water theory, friction and viscous flow, homogeneous model of the wind driven oceanic circulation and quasi-geotropic motion of a stratified fluid on a sphere.
 

@@ -21,7 +21,7 @@ nav: true
 
 ECMM719, Lead by Prof. [Geoffrey Vallis](https://emps.exeter.ac.uk/mathematics/staff/gv219)
 
-This course introduces the basic knowledge about fluid dynamics of atmospheres and oceans. Specific topics include equations of motion in a rotating frame of reference, shallow water systems, Boussinesq equations, vorticity and potential vorticity, quasi-geostrophic and planetary geostrophic equations, Rossby waves, baroclinic instability, wave-mean flow interaction, theory of the surface westerlies. 
+This course introduces the basic knowledge about fluid dynamics of atmospheres and oceans. Specific topics include equations of motion in a rotating frame of reference, shallow water systems, Boussinesq equations, vorticity and potential vorticity, quasi-geostrophic and planetary geostrophic equations, Rossby waves, baroclinic instability, wave-mean flow interaction, theory of the surface westerlies.
 
 **Problems**
 1. Probelm Set 1 (10%, due on 26th February 2018) [<i class="fas fa-pencil-alt"></i>]({{ '/assets/courses/ecmm719/prob1_18.pdf' | relative_url }}) [<i class="fas fa-file-alt"></i>]({{ '/assets/courses/ecmm719/ECMM719_Coursework_1.pdf' | relative_url }}) [<i class="fas fa-file-code"></i>]({{ '/assets/courses/ecmm719/ECMM719_Coursework_1.tex' | relative_url }})
@@ -134,7 +134,7 @@ Bin Wang. An Explicit Multi-Conservation Finite-Difference Scheme for Shallow-Wa
 ### Geophysical Fluid Dynamics
 ##### 地球物理流体力学
 
-Lead by Prof. [Yong Luo](https://www.dess.tsinghua.edu.cn/en/info/1090/1296.htm) 
+Lead by Prof. [Yong Luo](https://www.dess.tsinghua.edu.cn/en/info/1090/1296.htm)
 
 This course introduces the dynamical properties of the large scale atmospheric and oceanic motions and the interaction between them, i.e. the dynamic behaviors of geophysical fluid under conditions of gravitation, rotation, stratification and viscosity, which include inviscid shallow-water theory, friction and viscous flow, homogeneous model of the wind driven oceanic circulation and quasi-geotropic motion of a stratified fluid on a sphere.
 
@@ -153,14 +153,14 @@ The materials of the seminar are from the [blog](http://www.gfdl.noaa.gov/blog/i
 
 **My presentations (In English)** in class:
 
-1.  Post 49 & 50: Volcanoes and the Transient Climate Response [[Evaluation]({{ '/assets/courses/clim_dyn_seminar/Evaluation_From_Prof_Wright.pdf' | relative_url }}) from Prof. Wright] [<i class="fas fa-images"></i>]({{ '/assets/courses/clim_dyn_seminar/Volcanoes_and_TCR.pdf' | relative_url }}) [<i class="fas fa-file-code"></i>]({{ '/assets/courses/clim_dyn_seminar/Volcanoes_and_TCR.zip' | relative_url }}) 
+1.  Post [49](https://www.gfdl.noaa.gov/blog_held/49-volcanoes-and-the-transient-climate-response-part-i/) & [50](https://www.gfdl.noaa.gov/blog_held/50-volcanoes-and-the-transient-climate-response-part-ii/): Volcanoes and the Transient Climate Response [[Evaluation]({{ '/assets/courses/clim_dyn_seminar/Evaluation_From_Prof_Wright.pdf' | relative_url }}) from Prof. Wright] [<i class="fas fa-images"></i>]({{ '/assets/courses/clim_dyn_seminar/Volcanoes_and_TCR.pdf' | relative_url }}) [<i class="fas fa-file-code"></i>]({{ '/assets/courses/clim_dyn_seminar/Volcanoes_and_TCR.zip' | relative_url }})
 
-    I also wrote a short introduction to two-box model before class to help others to understand. [<i class="fas fa-file-alt"></i>]({{ '/assets/courses/clim_dyn_seminar/Rough_Derivation_of_Two-box_Model.pdf' | relative_url }}) [<i class="fas fa-file-code"></i>]({{ '/assets/courses/clim_dyn_seminar/Two_box_model_introduction.zip' | relative_url }}) 
-2.  Post 14: Surface salinity trends [<i class="fas fa-images"></i>]({{ '/assets/courses/clim_dyn_seminar/Surface_Salinity_Trends.pdf' | relative_url }}) [<i class="fas fa-file-code"></i>]({{ '/assets/courses/clim_dyn_seminar/Surface_Salinity_Trends.zip' | relative_url }})
+    I also wrote a short introduction of two-box model before class to help others understand. [<i class="fas fa-file-alt"></i>]({{ '/assets/courses/clim_dyn_seminar/Rough_Derivation_of_Two-box_Model.pdf' | relative_url }}) [<i class="fas fa-file-code"></i>]({{ '/assets/courses/clim_dyn_seminar/Two_box_model_introduction.zip' | relative_url }})
+2.  Post [14](https://www.gfdl.noaa.gov/blog_held/14-surface-salinity-trends/): Surface salinity trends [<i class="fas fa-images"></i>]({{ '/assets/courses/clim_dyn_seminar/Surface_Salinity_Trends.pdf' | relative_url }}) [<i class="fas fa-file-code"></i>]({{ '/assets/courses/clim_dyn_seminar/Surface_Salinity_Trends.zip' | relative_url }})
 
 * * *
 
-### Numerical Analysis 
+### Numerical Analysis
 ##### 数值分析
 
 Lead by Prof. [Zhongyi Huang](http://faculty.math.tsinghua.edu.cn/~zhuang/)

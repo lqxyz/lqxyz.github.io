@@ -24,9 +24,21 @@ ECMM719, Lead by Prof. [Geoffrey Vallis](https://emps.exeter.ac.uk/mathematics/s
 This course introduces the basic knowledge about fluid dynamics of atmospheres and oceans. Specific topics include equations of motion in a rotating frame of reference, shallow water systems, Boussinesq equations, vorticity and potential vorticity, quasi-geostrophic and planetary geostrophic equations, Rossby waves, baroclinic instability, wave-mean flow interaction, theory of the surface westerlies. 
 
 **Problems**
-1. Probelm Set 1 (10%, due on 26 February, 2018) [<i class="fas fa-pencil-alt"></i>]({{ '/assets/courses/ecmm719/prob1_18.pdf' | relative_url }}) [<i class="fas fa-file-alt"></i>]({{ '/assets/courses/ecmm719/ECMM719_Coursework_1.pdf' | relative_url }}) [<i class="fas fa-file-code"></i>]({{ '/assets/courses/ecmm719/ECMM719_Coursework_1.tex' | relative_url }})
-2. Probelm Set 2 (10%, due on 26 February, 2018) [<i class="fas fa-pencil-alt"></i>]({{ '/assets/courses/ecmm719/prob2_18.pdf' | relative_url }}) [<i class="fas fa-file-alt"></i>]({{ '/assets/courses/ecmm719/ECMM719_Coursework_2.pdf' | relative_url }}) [<i class="fas fa-file-code"></i>]({{ '/assets/courses/ecmm719/ECMM719_Coursework_2.tex' | relative_url }})
-3. Final exam (80%, May 2018) [<i class="fas fa-pencil-alt"></i>]({{ '/assets/courses/ecmm719/final18.pdf' | relative_url }}) [<i class="fas fa-file-alt"></i>]({{ '/assets/courses/ecmm719/ECMM719_Exam.pdf' | relative_url }}) [<i class="fas fa-file-code"></i>]({{ '/assets/courses/ecmm719/ECMM719_Exam.tex' | relative_url }})
+1. Probelm Set 1 (10%, due on 26th February 2018) [<i class="fas fa-pencil-alt"></i>]({{ '/assets/courses/ecmm719/prob1_18.pdf' | relative_url }}) [<i class="fas fa-file-alt"></i>]({{ '/assets/courses/ecmm719/ECMM719_Coursework_1.pdf' | relative_url }}) [<i class="fas fa-file-code"></i>]({{ '/assets/courses/ecmm719/ECMM719_Coursework_1.tex' | relative_url }})
+2. Probelm Set 2 (10%, due on 26th March 2018) [<i class="fas fa-pencil-alt"></i>]({{ '/assets/courses/ecmm719/prob2_18.pdf' | relative_url }}) [<i class="fas fa-file-alt"></i>]({{ '/assets/courses/ecmm719/ECMM719_Coursework_2.pdf' | relative_url }}) [<i class="fas fa-file-code"></i>]({{ '/assets/courses/ecmm719/ECMM719_Coursework_2.tex' | relative_url }})
+3. Final exam (80%, May 2018) [<i class="fas fa-pencil-alt"></i>]({{ '/assets/courses/ecmm719/final18.pdf' | relative_url }}) [<i class="fas fa-file-alt"></i>]({{ '/assets/courses/ecmm719/ECMM719_Exam.pdf' | relative_url }}) [<i class="fas fa-file-code"></i>]({{ '/assets/courses/ecmm719/ECMM719_Exam.zip' | relative_url }})
+
+* * *
+
+### Modelling the Weather and Climate
+
+ECMM723, Lead by Prof. [F. Hugo Lambert](http://emps.exeter.ac.uk/mathematics/staff/fhl202), Prof. [Bob Beare](http://emps.exeter.ac.uk/mathematics/staff/rjb215) and Dr. [George Efstathiou](https://emps.exeter.ac.uk/mathematics/staff/ge235)
+
+This module gives an introduction to both complex and simple models of weather and climate. Topics include simple models of climate change, radiation transfer, the sensitivity of climate to external forcing, interpreting climate model predictions, numerical methods and sub-grid processes.
+
+**Problems**
+1. Probelm Set 1 (due on 26th February 2018) [<i class="fas fa-pencil-alt"></i>]({{ '/assets/courses/ecmm723/ecmm723-problems2018.pdf' | relative_url }}) [<i class="fas fa-file-alt"></i>]({{ '/assets/courses/ecmm723/ECMM723-Coursework_1.pdf' | relative_url }}) [<i class="fas fa-file-code"></i>]({{ '/assets/courses/ecmm723/prob1.zip' | relative_url }})
+1. Probelm Set 2 (due on 28th March 2018) [<i class="fas fa-pencil-alt"></i>]({{ '/assets/courses/ecmm723/cw_2_2018.pdf' | relative_url }}) [<i class="fas fa-file-alt"></i>]({{ '/assets/courses/ecmm723/ECMM723_Coursework_2.pdf' | relative_url }}) [<i class="fas fa-file-code"></i>]({{ '/assets/courses/ecmm723/prob2.zip' | relative_url }})
 
 * * *
 
@@ -42,10 +54,11 @@ This module introduces the key physical processes determining the behaviour of t
 
 **Problems**
 
-1. Probelm Set 1 (due on 15th November 2017) [<i class="fas fa-pencil-alt"></i>]({{ '/assets/courses/ecmm725/2017_ecmm725_sheet1_corrected.pdf' | relative_url }}) [<i class="fas fa-file-alt"></i>]({{ '/assets/courses/ecmm725/exercise1.pdf' | relative_url }}) [<i class="fas fa-code"></i>]({{ '/assets/courses/ecmm725/exercise1.zip' | relative_url }})
-2. Probelm Set 2 (due on 17th January 2018) [<i class="fas fa-pencil-alt"></i>]({{ '/assets/courses/ecmm725/2017_ecmm725_sheet2.pdf' | relative_url }}) [<i class="fas fa-file-alt"></i>]({{ '/assets/courses/ecmm725/exercise2.pdf' | relative_url }}) [<i class="fas fa-code"></i>]({{ '/assets/courses/ecmm725/exercise2.zip' | relative_url }})
-2. Probelm Set 3 (due on 24th January 2018) [<i class="fas fa-pencil-alt"></i>]({{ '/assets/courses/ecmm725/2017_ecmm725_sheet3.pdf' | relative_url }}) [<i class="fas fa-file-alt"></i>]({{ '/assets/courses/ecmm725/exercise3.pdf' | relative_url }}) [<i class="fas fa-code"></i>]({{ '/assets/courses/ecmm725/exercise3.zip' | relative_url }})
+1. Probelm Set 1 (due on 15th November 2017) [<i class="fas fa-pencil-alt"></i>]({{ '/assets/courses/ecmm725/2017_ecmm725_sheet1_corrected.pdf' | relative_url }}) [<i class="fas fa-file-alt"></i>]({{ '/assets/courses/ecmm725/exercise1.pdf' | relative_url }}) [<i class="fas fa-file-code"></i>]({{ '/assets/courses/ecmm725/exercise1.zip' | relative_url }})
+2. Probelm Set 2 (due on 17th January 2018) [<i class="fas fa-pencil-alt"></i>]({{ '/assets/courses/ecmm725/2017_ecmm725_sheet2.pdf' | relative_url }}) [<i class="fas fa-file-alt"></i>]({{ '/assets/courses/ecmm725/exercise2.pdf' | relative_url }}) [<i class="fas fa-file-code"></i>]({{ '/assets/courses/ecmm725/exercise2.zip' | relative_url }})
+2. Probelm Set 3 (due on 24th January 2018) [<i class="fas fa-pencil-alt"></i>]({{ '/assets/courses/ecmm725/2017_ecmm725_sheet3.pdf' | relative_url }}) [<i class="fas fa-file-alt"></i>]({{ '/assets/courses/ecmm725/exercise3.pdf' | relative_url }}) [<i class="fas fa-file-code"></i>]({{ '/assets/courses/ecmm725/exercise3.zip' | relative_url }})
 
+* * *
 
 ## 2015 Spring Courses@Tsinghua University
 

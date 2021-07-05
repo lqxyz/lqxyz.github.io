@@ -11,6 +11,41 @@ nav: true
 
 <i class="fas fa-file-alt"></i> = My solutions (pdf file) <i class="fas fa-images"></i> = Slides <i class='fas fa-database'></i> = Data <i class="fas fa-file-code"></i> = LaTeX file
 
+* * *
+
+## 2018 Spring Courses@University of Exeter
+
+* * *
+
+### Fluid Dynamics of Atmospheres and Oceans
+
+ECMM719, Lead by Prof. [Geoffrey Vallis](https://emps.exeter.ac.uk/mathematics/staff/gv219)
+
+This course introduces the basic knowledge about fluid dynamics of atmospheres and oceans. Specific topics include equations of motion in a rotating frame of reference, shallow water systems, Boussinesq equations, vorticity and potential vorticity, quasi-geostrophic and planetary geostrophic equations, Rossby waves, baroclinic instability, wave-mean flow interaction, theory of the surface westerlies. 
+
+**Problems**
+1. Probelm Set 1 (10%, due on 26 February, 2018) [<i class="fas fa-pencil-alt"></i>]({{ '/assets/courses/ecmm719/prob1_18.pdf' | relative_url }}) [<i class="fas fa-file-alt"></i>]({{ '/assets/courses/ecmm719/ECMM719_Coursework_1.pdf' | relative_url }}) [<i class="fas fa-file-code"></i>]({{ '/assets/courses/ecmm719/ECMM719_Coursework_1.tex' | relative_url }})
+2. Probelm Set 2 (10%, due on 26 February, 2018) [<i class="fas fa-pencil-alt"></i>]({{ '/assets/courses/ecmm719/prob2_18.pdf' | relative_url }}) [<i class="fas fa-file-alt"></i>]({{ '/assets/courses/ecmm719/ECMM719_Coursework_2.pdf' | relative_url }}) [<i class="fas fa-file-code"></i>]({{ '/assets/courses/ecmm719/ECMM719_Coursework_2.tex' | relative_url }})
+3. Final exam (80%, May 2018) [<i class="fas fa-pencil-alt"></i>]({{ '/assets/courses/ecmm719/final18.pdf' | relative_url }}) [<i class="fas fa-file-alt"></i>]({{ '/assets/courses/ecmm719/ECMM719_Exam.pdf' | relative_url }}) [<i class="fas fa-file-code"></i>]({{ '/assets/courses/ecmm719/ECMM719_Exam.tex' | relative_url }})
+
+* * *
+
+## 2017 Fall Courses@University of Exeter
+
+* * *
+
+### The Climate System
+
+ECMM725, Lead by Dr. [Tim Jupp](http://emps.exeter.ac.uk/mathematics/staff/tej202)
+
+This module introduces the key physical processes determining the behaviour of the Earth's atmosphere and ocean Topics include radiative energy transfer, the structure, motion and thermodynamics of the atmosphere and ocean, the surface energy balance, and the main components of the general circulation (Hadley cells, Walker cells, jet streams etc.).
+
+**Problems**
+
+1. Probelm Set 1 (due on 15th November 2017) [<i class="fas fa-pencil-alt"></i>]({{ '/assets/courses/ecmm725/2017_ecmm725_sheet1_corrected.pdf' | relative_url }}) [<i class="fas fa-file-alt"></i>]({{ '/assets/courses/ecmm725/exercise1.pdf' | relative_url }}) [<i class="fas fa-code"></i>]({{ '/assets/courses/ecmm725/exercise1.zip' | relative_url }})
+2. Probelm Set 2 (due on 17th January 2018) [<i class="fas fa-pencil-alt"></i>]({{ '/assets/courses/ecmm725/2017_ecmm725_sheet2.pdf' | relative_url }}) [<i class="fas fa-file-alt"></i>]({{ '/assets/courses/ecmm725/exercise2.pdf' | relative_url }}) [<i class="fas fa-code"></i>]({{ '/assets/courses/ecmm725/exercise2.zip' | relative_url }})
+2. Probelm Set 3 (due on 24th January 2018) [<i class="fas fa-pencil-alt"></i>]({{ '/assets/courses/ecmm725/2017_ecmm725_sheet3.pdf' | relative_url }}) [<i class="fas fa-file-alt"></i>]({{ '/assets/courses/ecmm725/exercise3.pdf' | relative_url }}) [<i class="fas fa-code"></i>]({{ '/assets/courses/ecmm725/exercise3.zip' | relative_url }})
+
 
 ## 2015 Spring Courses@Tsinghua University
 
@@ -37,6 +72,8 @@ See the Research section [<i class="fab fa-github"></i>](https://github.com/lqxy
 
 Reference: WAIS Divide Project Members. Precise interpolar phasing of abrupt climate change during the last ice age. Nature, 2015, 520 (7549): 661–665\. doi:[10.1038/nature14401](http://www.nature.com/nature/journal/v520/n7549/full/nature14401.html).
 
+* * *
+
 ### Data science and Big Data Processing
 ##### 数据科学和大数据处理
 
@@ -56,6 +93,8 @@ This course is about the basic knowledge of statistics, machine learning and a l
 
 Alessandro Lusci, Gianluca Pollastri and Pierre Baldi. Deep Architectures and Deep Learning in Chemoinformatics: The Prediction of Aqueous Solubility for Drug-Like Molecules. Journal of Chemical Information and Modeling, 2013, 53: 1563-1575\. doi: [10.1021/ci400187y](http://pubs.acs.org/doi/abs/10.1021/ci400187y).
 
+* * *
+
 ### Introduction to Earth System Model
 ##### 地球系统模式导论
 
@@ -73,6 +112,7 @@ Bin Wang. An Explicit Multi-Conservation Finite-Difference Scheme for Shallow-Wa
 
 **Final Paper** [<i class="fas fa-pencil-alt"></i>]({{ '/assets/courses/earth_system_model/final-hw.txt' | relative_url }}) [<i class="fas fa-file-alt"></i>]({{ '/assets/courses/earth_system_model/my_understanding_of_coupler.pdf' | relative_url }})
 
+* * *
 
 ## 2014 Fall Courses@Tsinghua University
 
@@ -89,6 +129,8 @@ This course introduces the dynamical properties of the large scale atmospheric a
 
 Shi Jiang, Fei-fei Jin, and Michael Ghil. Multiple Equilibria, Periodic, and Aperiodic Solutions in a Wind-Driven, Double-Gyre, Shallow-Water Model. Journal of Physical Oceanography, 1995, 25: 764-786\. doi:[10.1175/1520-0485(1995)025<0764:MEPAAS>2.0.CO;2](http://journals.ametsoc.org/doi/abs/10.1175/1520-0485(1995)025%3C0764%3AMEPAAS%3E2.0.CO%3B2).
 
+* * *
+
 ### Climate Dynamics Seminar
 ##### 气候动力学研讨
 
@@ -102,6 +144,8 @@ The materials of the seminar are from the [blog](http://www.gfdl.noaa.gov/blog/i
 
     I also wrote a short introduction to two-box model before class to help others to understand. [<i class="fas fa-file-alt"></i>]({{ '/assets/courses/clim_dyn_seminar/Rough_Derivation_of_Two-box_Model.pdf' | relative_url }}) [<i class="fas fa-file-code"></i>]({{ '/assets/courses/clim_dyn_seminar/Two_box_model_introduction.zip' | relative_url }}) 
 2.  Post 14: Surface salinity trends [<i class="fas fa-images"></i>]({{ '/assets/courses/clim_dyn_seminar/Surface_Salinity_Trends.pdf' | relative_url }}) [<i class="fas fa-file-code"></i>]({{ '/assets/courses/clim_dyn_seminar/Surface_Salinity_Trends.zip' | relative_url }})
+
+* * *
 
 ### Numerical Analysis 
 ##### 数值分析

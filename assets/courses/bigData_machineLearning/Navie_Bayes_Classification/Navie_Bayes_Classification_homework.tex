@@ -1,0 +1,141 @@
+\documentclass[a4paper, 1pt]{article}
+
+%%%%%% 导入包 %%%%%%
+\usepackage{graphicx}
+\usepackage{amsmath} 
+\usepackage{xeCJK}
+\usepackage{booktabs}
+\usepackage{multicol}
+\setlength{\columnsep}{2em}
+\usepackage{setspace} % set row space
+\usepackage{geometry} % 页边距
+\geometry{left=2.5cm,right=2.5cm,top=2.5cm,bottom=2.5cm}
+\usepackage{enumitem}% item等间距过大解决办法
+\usepackage[unicode]{hyperref}
+\usepackage{xcolor}
+\usepackage{cite}
+\usepackage{indentfirst}
+\setCJKmainfont{Songti SC}
+\usepackage{geometry}
+\usepackage{listings}
+\usepackage[T1]{fontenc}
+\usepackage{courier}
+\lstset{language=Python,
+  backgroundcolor=\color[RGB]{245,245,244},   %代码背景色  
+  basicstyle=\ttfamily\footnotesize
+  =false, % 应该有bug吧，这样就不在边框上面显示字了
+  breaklines=true,
+  commentstyle=\color{red!50!green!50!blue!50},%浅灰色的注释
+  frame=shadowbox, %把代码用带有阴影的框圈起来 
+  extendedchars=false,
+  lineskip=-2pt,
+  keepspaces=true,
+  rulesepcolor=\color{red!20!green!20!blue!20},%代码块边框为淡青色
+  %backgroundcolor=\color[RGB]{198, 226, 255},   %代码背景色  
+  %numbers=left,%左侧显示行号 往左靠,还可以为right，或none，即不加行号  
+  %numberstyle={\color[RGB]{0,192,192}\tiny} ,%设置行号的大小，大小有tiny,scriptsize,footnotesize,small,normalsize,large等  
+  keywordstyle=\color{red},
+  commentstyle=\color{blue},
+  morecomment=[l]{!\ }% Comment only with space after !
+  %escapeinside={/*@}{@*/},  
+  %escapeinside={\%*}{*)}, 
+  showspaces=false,                % show spaces everywhere adding particular underscores; it overrides 'showstringspaces'
+  showstringspaces=false,          % underline spaces within strings only
+  showtabs=false,                  % show tabs within strings adding particular underscores
+  % stepnumber=2,                    % the step between two line-numbers. If it's 1, each line will be numbered
+  % stringstyle=\color{mymauve},     % string literal style
+  % tabsize=2,                       % sets default tabsize to 2 spaces
+  %title=\lstname
+  xleftmargin=0em, xrightmargin=0em, aboveskip=1em%设置边距
+}
+
+%%%%%% 设置字号 %%%%%%
+\newcommand{\chuhao}{\fontsize{42pt}{\baselineskip}\selectfont}
+\newcommand{\xiaochuhao}{\fontsize{36pt}{\baselineskip}\selectfont}
+\newcommand{\yihao}{\fontsize{28pt}{\baselineskip}\selectfont}
+\newcommand{\erhao}{\fontsize{21pt}{\baselineskip}\selectfont}
+\newcommand{\xiaoerhao}{\fontsize{18pt}{\baselineskip}\selectfont}
+\newcommand{\xiaosihao}{\fontsize{12pt}{\baselineskip}\selectfont}
+\newcommand{\wuhao}{\fontsize{10.5pt}{\baselineskip}\selectfont}
+\newcommand{\xiaowuhao}{\fontsize{9pt}{\baselineskip}\selectfont}
+\newcommand{\liuhao}{\fontsize{7.5pt}{\baselineskip}\selectfont}
+
+%%%% 段落首行缩进两个字 %%%%
+\makeatletter
+\let\@afterindentfalse\@afterindenttrue
+\@afterindenttrue
+\makeatother
+\setlength{\parindent}{2em}  %中文缩进两个汉字位
+
+\renewcommand{\tablename}{表}
+
+%%%% 正文开始 %%%%
+\begin{document}
+\begin{spacing}{1.0}
+
+%%%% 定义标题格式，包括title，author，affiliation，email等 %%%%
+\title{朴素贝叶斯分类算法实验报告}
+\author{\wuhao 刘群\footnote{电子邮件: liu-q14@mails.tsinghua.edu.cn，学号: 2014211591}\\[2ex]
+\wuhao 地球系统科学研究中心\\
+}
+\date{\wuhao 2015年4月14日}
+%%%% 以下部分是正文 %%%%  
+\maketitle
+
+%\tableofcontents
+%\newpage
+\xiaowuhao 这次作业是让我们编写利用朴素贝叶斯算法实现基于Iris数据集分类的程序. 这个实验报告的思路是先对朴素贝叶斯算法做一个简单的介绍，然后对函数做详细的介绍，最后进行总结。
+%\begin{multicols}{2}
+\section{\xiaosihao Naive Bayes算法简介}
+Naive Bayes算法是一种基于Bayes概率的一种分类方法，其主要思想是要最大化后验概率。主要假设所有的特征都是相互独立的，所有的特征对结论都是同等重要的。
+贝叶斯分类的基本公式如下：
+$$p(C|X) = \frac{p(X|C)p(C)}{p(X)} \rightarrow p(C|X) \propto p(X|C)p(C)$$
+其中，$X=X(x_1, x_2, \cdots, x_n), C=C(c_1, c_2, \cdots, c_L)$. 如果$x_1, x_2, \cdots, x_n$ 是相互独立的，则有
+$$p(X|C)=p(x_1,x_2,\cdots,x_n | C) = p(x_1|C)p(x_2|C)\cdots p(x_n|C)$$
+最终，我们要在计算得出的后验概率$p(c_k|X)(k=1,2,\cdots,L)$中选择一个最大值，这样$X$就属于这个概率所对应的类别。
+
+%---------------------Module array----------------------%
+\section{\xiaosihao NBIris函数介绍}
+这个函数是用来对Iris的数据进行分类的，其主要思路如下：首先通过引入的datasets读入所需的数据。接下来就是各种概率的计算。先计算每种类别的先验概率$p(y)$, 然后需要计算似然概率$p(x|y)$, 由于我们没有任何其他信息，因此这里假设每种类别中所对应的四个参数$x_1, x_2, x_3, x_4$ 均满足正态分布，因此就需要将对应的类别的数据提取出来，计算相应的均值和标准差，因为只需要这两个参数就可以唯一确定正态分布的函数。此时即可计算得出似然概率:
+$$p(y|x) \propto p(x_i|y) = \frac{1}{\sigma_y\sqrt{2\pi}}e^{-\frac{(x_i-\mu_y)^2}{2\sigma_y^2}}\quad i=1,2,3,4$$
+最后就是要计算
+$$\prod_{i=1}^4p(x_i|y)p(y)$$
+由于这样计算之后，可能出现的情况是数值特别小，这样会产生很大的误差，因此在这里我们对上式取对数，即计算
+$$\text{ln}\left(\prod_{i=1}^4p(x_i|y)p(y)\right)=\sum_{i=1}^n\text{ln }p(x_i|y)+ \text{ln }p(y)$$
+即可。最后，我们返回概率中最大的值的索引号即可。
+\begin{lstlisting}
+import numpy as np
+from sklearn import datasets
+
+def NBIris(x_test):
+    # load train data to x_train and y_train
+    iris = datasets.load_iris()
+    x_train = iris.data
+    y_train = iris.target
+
+    # calculate the probability of each type
+    p_y = np.array([y_train[y_train == i].shape[0] / float(x_train.shape[0]) for i in range(3)])
+
+    # calculate the average and stddev of normal distribution
+    ave = np.zeros((3,4))
+    sigma = np.zeros((3,4))
+    for i in range(3):
+        ave[i,:] = np.average(x_train[y_train==i, :], axis=0)
+        sigma[i,:] = np.std(x_train[y_train==i, :], axis=0)
+
+    x_test_matrix = np.tile(x_test, (3,1))
+    # calcualte the probability of p(xi|y) with the equation of normal distribution
+    p_xy = 1.0/sigma/np.sqrt(2*np.pi)*np.exp(-(x_test_matrix-ave)**2/2.0/sigma**2)
+    # change the probability to log, because the value may be too small
+    log_p_yx = np.sum(np.log(p_xy), axis=1)+np.log(p_y)
+    # return the index of max probability, and it's also the type label
+    y_test = np.argmax(log_p_yx)
+    return y_test
+\end{lstlisting}
+
+
+\section{\xiaosihao 总结}
+通过这个程序的编写，我首先熟悉了朴素贝叶斯分类器的主要思想，然后进一步熟悉了Python的相关操作，但是还是感觉对于numpy库中的函数掌握不够熟练，另外，就是在利用这个库的时候，尽量采取矩阵的操作，这样可以提高程序的效率。
+%\end{multicols}
+\end{spacing}
+\end{document}

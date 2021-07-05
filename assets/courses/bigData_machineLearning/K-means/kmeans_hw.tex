@@ -1,0 +1,209 @@
+\documentclass[a4paper, 1pt]{article}
+
+%%%%%% 导入包 %%%%%%
+\usepackage{graphicx}
+\usepackage{amsmath} 
+\usepackage{xeCJK}
+\usepackage{booktabs}
+\usepackage{multicol}
+\setlength{\columnsep}{2em}
+\usepackage{setspace} % set row space
+\usepackage{geometry} % 页边距
+\geometry{left=2.5cm,right=2.5cm,top=2.5cm,bottom=2.5cm}
+\usepackage{enumitem}% item等间距过大解决办法
+\usepackage[unicode]{hyperref}
+\usepackage{xcolor}
+\usepackage{cite}
+\usepackage{indentfirst}
+\setCJKmainfont{Songti SC}
+\usepackage{geometry}
+\usepackage{listings}
+\usepackage[T1]{fontenc}
+\usepackage{courier}
+\lstset{language=Python,
+  backgroundcolor=\color[RGB]{245,245,244},   %代码背景色  
+  basicstyle=\ttfamily\footnotesize
+  =false, % 应该有bug吧，这样就不在边框上面显示字了
+  breaklines=true,
+  commentstyle=\color{red!50!green!50!blue!50},%浅灰色的注释
+  frame=shadowbox, %把代码用带有阴影的框圈起来 
+  extendedchars=false,
+  lineskip=-2pt,
+  keepspaces=true,
+  rulesepcolor=\color{red!20!green!20!blue!20},%代码块边框为淡青色
+  %backgroundcolor=\color[RGB]{198, 226, 255},   %代码背景色  
+  %numbers=left,%左侧显示行号 往左靠,还可以为right，或none，即不加行号  
+  %numberstyle={\color[RGB]{0,192,192}\tiny} ,%设置行号的大小，大小有tiny,scriptsize,footnotesize,small,normalsize,large等  
+  keywordstyle=\color{red},
+  commentstyle=\color{blue},
+  morecomment=[l]{!\ }% Comment only with space after !
+  %escapeinside={/*@}{@*/},  
+  %escapeinside={\%*}{*)}, 
+  showspaces=false,                % show spaces everywhere adding particular underscores; it overrides 'showstringspaces'
+  showstringspaces=false,          % underline spaces within strings only
+  showtabs=false,                  % show tabs within strings adding particular underscores
+  % stepnumber=2,                    % the step between two line-numbers. If it's 1, each line will be numbered
+  % stringstyle=\color{mymauve},     % string literal style
+  % tabsize=2,                       % sets default tabsize to 2 spaces
+  %title=\lstname
+  xleftmargin=0em, xrightmargin=0em, aboveskip=1em%设置边距
+}
+
+%%%%%% 设置字号 %%%%%%
+\newcommand{\chuhao}{\fontsize{42pt}{\baselineskip}\selectfont}
+\newcommand{\xiaochuhao}{\fontsize{36pt}{\baselineskip}\selectfont}
+\newcommand{\yihao}{\fontsize{28pt}{\baselineskip}\selectfont}
+\newcommand{\erhao}{\fontsize{21pt}{\baselineskip}\selectfont}
+\newcommand{\xiaoerhao}{\fontsize{18pt}{\baselineskip}\selectfont}
+\newcommand{\xiaosihao}{\fontsize{12pt}{\baselineskip}\selectfont}
+\newcommand{\wuhao}{\fontsize{10.5pt}{\baselineskip}\selectfont}
+\newcommand{\xiaowuhao}{\fontsize{9pt}{\baselineskip}\selectfont}
+\newcommand{\liuhao}{\fontsize{7.5pt}{\baselineskip}\selectfont}
+
+%%%% 段落首行缩进两个字 %%%%
+\makeatletter
+\let\@afterindentfalse\@afterindenttrue
+\@afterindenttrue
+\makeatother
+\setlength{\parindent}{2em}  %中文缩进两个汉字位
+
+\renewcommand{\tablename}{表}
+
+%%%% 正文开始 %%%%
+\begin{document}
+\begin{spacing}{1.0}
+
+%%%% 定义标题格式，包括title，author，affiliation，email等 %%%%
+\title{k-means聚类分析实验报告}
+\author{\wuhao 刘群\footnote{电子邮件: liu-q14@mails.tsinghua.edu.cn，学号: 2014211591}\\[2ex]
+\wuhao 地球系统科学研究中心\\
+}
+\date{\wuhao 2015年4月24日}
+%%%% 以下部分是正文 %%%%  
+\maketitle
+
+%\tableofcontents
+%\newpage
+\xiaowuhao 
+%\begin{multicols}{2}
+\section{\xiaosihao k-means算法简介}
+k-means是一种聚类分析的算法，属于聚类分析中的划分方法, 主要思想是把数据划分成k个区域，通过基于距离的启发式的迭代，找到最优的聚类方案。其主要过程是:
+\begin{enumerate}
+\item 从问题空间中随意选取k个点，作为初始簇的中心;
+\item  重复以下过程:
+\begin{enumerate}
+\item 对数据集中的每个数据点，计算它到不同簇中心的距离，根据距离的比较，将该数据点分配到与其距离最近的中心点;
+\item 针对每一个簇，计算簇中所有点的均值，并以均值作为新的中心点;
+\end{enumerate}
+\item 直到各簇的中心点不再发生变化.
+\end{enumerate}
+
+但是k-means也有一些问题，即在初始条件下我们并不知道最好要分几类，而且在k值确定的基础上，计算结果倾向于收敛到局部最小值，而不是全局最小值, 并且对于数据中的离群点非常敏感。
+
+%---------------------Module array----------------------%
+\section{\xiaosihao k-means.py程序简介}
+本次作业的主要任务是利用k-means方法对Iris数据进行分类，由于这组数据里本身就含有三个类别，因此在进行分类时，我也采取了k＝3来进行分类。
+主要过程如下：\\
+\begin{enumerate}
+\item 确定k值，由于这里的测试数据本身就是来自3个类别，因此这里取$k=3$.当然，我们应该取不同的k值进行测试，但是对于不同的k值所分出的不同的类别，我们应该如何去判断优劣呢？由于这个标准不能简单的选择到中心点的距离来判断，因此这里我就暂时不对k值进行讨论。
+\item 随机选择k个"中心点", 这里我采用的是最简单的选取方法，即采用python中自带的random模块产生k组随机数作为初始迭代的中心点。
+\begin{lstlisting}
+ center = np.array(random.sample(x_train, k))
+\end{lstlisting}
+\item 计算所有点到所有中心点的距离，这里我们采用的是欧式距离，
+\item  求每个样本聚类的结果，在这里，我们是根据所有样本到中心点的距离来判断的。对于一个样本来说，其归属于距离自己最近的中心点，我们在这里是基于对距离的排序确定的。对于每一个样本来说，都要计算其到各个中心点的值，这样就可以生成$150\times k$的矩阵，在进行计算时，我们可以利用tile函数将数组进行扩充形成一个大矩阵，然后利用矩阵的相关操作进行运算，这样可以提高计算效率。然后我们利用python中的argmin函数，对每一行进行排序即可得到相应的类别分类。
+
+\begin{lstlisting}
+for i in range(k):
+    C = np.tile(center[i,:], (150,1))
+    dist[:,i]=np.sqrt(np.sum((x_train-C)**2,axis=1))
+
+labels = np.argmin(dist, axis=1)
+\end{lstlisting}
+\item 计算新的中心点, 这里我们采用的方法是将某一类别的数据提取出来，分别计算器几何中心（即每个维度求各自的平均）。
+\begin{lstlisting}
+newcenter = np.zeros((k,4))
+for i in range(k):
+    newcenter[i,:] =  np.average(x_train[labels==i,:], axis=0)
+\end{lstlisting}
+\item 判断中心点是否发生变化, 若没有发生变则训练结束, 若有变化，重复步骤3。在进行判断时，我们引入了一个新的变量changed来判断。由于$newcenter==center$之后，我们得到的是一个bool型矩阵，因此我们又利用了$.all()$函数来判断矩阵中是否全为True，如果全为True，即新旧中心点是相同的，则停止迭代，否则就继续迭代。
+\begin{lstlisting}
+changed = (newcenter == center).all() == False
+\end{lstlisting}
+下面是完整kmeans函数。
+\begin{lstlisting}
+def kmeans(x_train, k):
+    changed = True
+    center = np.array(random.sample(x_train, k))
+    dist = np.zeros((150, k))
+    # Loop until the center won't change
+    while changed:
+        for i in range(k):
+            C = np.tile(center[i,:], (150,1))
+            dist[:,i]=np.sqrt(np.sum((x_train-C)**2,axis=1))
+
+        labels = np.argmin(dist, axis=1)
+        newcenter = np.zeros((k,4))
+        for i in range(k):
+            newcenter[i,:] =  np.average(x_train[labels==i,:], axis=0)
+        changed = (newcenter == center).all() == False
+        center = newcenter
+    # Calculate the number of each group
+    num_of_each_type = np.array([x_train[labels == i,:].shape[0] for i in range(k)])
+    # Calcultate the total distance of the classification
+    totalDistance = 0
+    for i in range(k):
+        #print sum(labels==i)
+        newCenter = np.tile(center[i,:], (sum(labels==i),1))
+        #print "dist"+str(np.sum((x_train[labels==i,:]-newCenter)**2,axis=1))
+        totalDistance += np.sum((np.sum((x_train[labels==i,:]-newCenter)**2,axis=1)))
+    # return type labels and total distance and number of each type
+    return labels, np.sqrt(totalDistance), num_of_each_type
+\end{lstlisting}
+\item 评价聚类准确性, 在这里调用kmeans函数时，我调用了10次，取出这10次中到中心点距离最小的情形作为最终聚类的结果。
+\begin{lstlisting}
+# Loading data
+iris = datasets.load_iris()
+x_train = iris.data
+y_train = iris.target
+
+k = 3
+n = 10 # num of loops
+labels = {}
+num = {}
+totalDist = np.zeros(n)
+minDist = 10**6
+minIndex = 0
+for j in range(n):
+    labels[j], totalDist[j], num[j] = kmeans(x_train, k)
+    if totalDist[j] < minDist:
+        minIndex = j
+        minDist = totalDist[j]
+\end{lstlisting}
+然后对聚类的结果和原先分好的类的结果进行对比，统计聚类结果中实际上含有的各个类别的比例。然后将计算的结果输出，输出时按照列表的形式打印出来。由于中心点刚开始是随机选择的，也不能确定其到底是属于正确分类中的哪一组，因此真实的类别名用$type0, type1, type2$来表示，而不是用真实的类别名。
+\begin{lstlisting}
+# Print the classification results
+print "Number of samples in each claster is " + str(num[minIndex]) + "."
+#print "\t\t %-15s %-15s %-15s" %("setosa", "versicolor", "virginica")
+print "\t\t %-15s %-15s %-15s" %("type0", "type1", "type2")
+for i in range(k):
+    a = sum((y_train[labels[minIndex]==i])==0)*1.0/(x_train[labels[minIndex]==i,:]).shape[0]
+    b = sum((y_train[labels[minIndex]==i])==1)*1.0/(x_train[labels[minIndex]==i,:]).shape[0]
+    c = sum((y_train[labels[minIndex]==i])==2)*1.0/(x_train[labels[minIndex]==i,:]).shape[0]
+    print "%8s\t %-15.4f %-15.4f %-15.4f" %("cluster"+str(i), a, b, c)
+\end{lstlisting}
+\end{enumerate}
+下面是某次程序运行后输出的结果：
+\begin{lstlisting}
+Number of samples in each claster is [50 38 62].
+             type0           type1           type2          
+cluster0     1.0000          0.0000          0.0000         
+cluster1     0.0000          0.0526          0.9474         
+cluster2     0.0000          0.7742          0.2258         
+\end{lstlisting}
+
+\section{\xiaosihao 总结}
+聚类分析可以将大量数据分成几类，挖掘出数据中隐藏的我们还不确定的规律和特征, 在数据分析中非常有用。但是对于初值的选择十分敏感，因此在选择初值时我们应该格外注意。但是在这里我们主要是采用了随机的方式来选择初值，这样的效果可能不是很好，但是通过10次或者更多次迭代，或许可以得到比较好的结果。
+%\end{multicols}
+\end{spacing}
+\end{document}

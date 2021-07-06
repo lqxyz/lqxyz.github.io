@@ -76,17 +76,19 @@
       {% if entry.year %}
         {% if entry.volume and entry.number%}
             {% if entry.pages %}
-                {{entry.year}}, {{entry.volume}}({{entry.number}}): {{entry.pages}}.
+                {{entry.year}}, {{entry.volume}} ({{entry.number}}): {{entry.pages}}.
             {% else %}
-                {{entry.year}}, {{entry.volume}}({{entry.number}}).
+                {{entry.year}}, {{entry.volume}} ({{entry.number}}).
             {% endif %}
         {% endif %}
       {% else %}
         {{entry.year}}.
       {% endif %}
+      <!---
       {% if entry.doi%}
         DOI: <a href="https://doi.org/{{entry.doi}}" target="_blank">{{entry.doi}}</a>.
       {% endif %}
+      -->
       </div>
     {% endif %}
 
@@ -102,6 +104,13 @@
     {% endif %}
     {% if entry.html %}
       <a href="{{ entry.html }}" class="btn btn-sm z-depth-0" role="button" target="_blank">HTML</a>
+    {% endif %}
+    {% if entry.doi%}
+      {% if entry.doi contains '://' %}
+        <a href="{{entry.doi}}" class="btn btn-sm z-depth-0" role="button" target="_blank">DOI</a>
+      {% else %}
+        <a href="https://doi.org/{{entry.doi}}"  class="btn btn-sm z-depth-0" role="button" target="_blank">DOI</a>
+      {% endif %}
     {% endif %}
     {% if entry.pdf %}
       {% if entry.pdf contains '://' %}

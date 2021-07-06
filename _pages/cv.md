@@ -11,7 +11,7 @@ nav: true
 * PhD student in Mathematics
    * Department of Mathematcis, [University of Exeter](https://www.exeter.ac.uk/), UK. 2017.09-present
    * Supervisors: Prof. Matthew Collins and Prof. Geoffrey Vallis
-   * Thesis: Understand the climate feedbacks with simple climate models
+   * Thesis: Understanding climate feedbacks with simple climate models
 
 * MSc in Atmospheric Sciences
    * Department of Earth System Science, [Tsinghua University](http://www.tsinghua.edu.cn/publish/newthuen/index.html), China. 2014.09-2017.07

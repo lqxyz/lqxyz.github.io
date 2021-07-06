@@ -69,12 +69,23 @@
 
       <div class="periodical">
       {% if entry.type == "article" %}
-        <em>{{entry.journal}}</em>
+        <em>{{entry.journal}}</em>.
       {% elsif entry.type == "inproceedings" %}
-        <em>In {{entry.booktitle}}</em>
+        <em>In {{entry.booktitle}}</em>.
       {% endif %}
       {% if entry.year %}
-        {{entry.year}}
+        {% if entry.volume and entry.number%}
+            {% if entry.pages %}
+                {{entry.year}}, {{entry.volume}}({{entry.number}}): {{entry.pages}}.
+            {% else %}
+                {{entry.year}}, {{entry.volume}}({{entry.number}}).
+            {% endif %}
+        {% endif %}
+      {% else %}
+        {{entry.year}}.
+      {% endif %}
+      {% if entry.doi%}
+        DOI: <a href="https://doi.org/{{entry.doi}}" target="_blank">{{entry.doi}}</a>.
       {% endif %}
       </div>
     {% endif %}

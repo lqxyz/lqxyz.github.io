@@ -173,3 +173,49 @@ Lead by Prof. [Zhongyi Huang](http://faculty.math.tsinghua.edu.cn/~zhuang/)
 4.  Interpolation [<i class="fas fa-pencil-alt"></i>]({{ '/assets/courses/num/4_practice-interp.pdf' | relative_url }}) [<i class="fas fa-file-alt"></i>]({{ '/assets/courses/num/hw4-interp.pdf' | relative_url }}) [<i class="fas fa-code"></i>]({{ '/assets/courses/num/hw4-interp.zip' | relative_url }}) [<i class="fas fa-file-code"></i>]({{ '/assets/courses/num/hw4-interp_tex.zip' | relative_url }})
 5.  Functions Approximation and Numerical Fitting [<i class="fas fa-pencil-alt"></i>]({{ '/assets/courses/num/5_practice-app.pdf' | relative_url }}) [<i class="fas fa-file-alt"></i>]({{ '/assets/courses/num/hw5-approx.pdf' | relative_url }}) [<i class="fas fa-code"></i>]({{ '/assets/courses/num/hw5-approx.zip' | relative_url }}) [<i class="fas fa-file-code"></i>]({{ '/assets/courses/num/hw5-approx_tex.zip' | relative_url }})
 6.  Numerical Integration and Differentiation [<i class="fas fa-pencil-alt"></i>]({{ '/assets/courses/num/6_practice-quad.pdf' | relative_url }}) [<i class="fas fa-file-alt"></i>]({{ '/assets/courses/num/hw6-quad.pdf' | relative_url }}) [<i class="fas fa-code"></i>]({{ '/assets/courses/num/hw6-quad.zip' | relative_url }}) [<i class="fas fa-file-code"></i>]({{ '/assets/courses/num/hw6-quad.tex' | relative_url }})
+
+* * *
+
+## MOOC Courses
+
+**[edX](https://www.edx.org/)**
+
+* 2016.01 [Statistical Thinking for Data Science and Analytics](https://courses.edx.org/certificates/6192792ad3af42158e225b486522d845), ColumbiaX-DS101X, Columbia University.
+
+* 2015.12 [Introduction to Computational Thinking and Data Science](https://courses.edx.org/certificates/e65b00603c784ed299ba07e7d50466cb), MITx-6.00.2, MIT.
+
+* 2015.12 [Climate Change: The Science](https://courses.edx.org/certificates/2a9e9ca437724bdfa0764e18e090d2c6), UBCx: Climate1x, The University of British Columbia.
+
+* 2015.10 [Introduction to R Programming](https://courses.edx.org/certificates/81c17aca26b748ca81acefcdc708b0cf), Microsoft DAT204x.
+
+* 2014.10 [Introduction to Computer Science and Programming Using Python](https://s3.amazonaws.com/verify.edx.org/downloads/b9af81cf3296439eadcc67579fe3c2ea/Certificate.pdf), MITx-6.00.1x, MIT.
+
+* 2014.09 [Introduction to Linux](https://s3.amazonaws.com/verify.edx.org/downloads/0e40ecec4e94449ca97b3f5bdbd0d090/Certificate.pdf), LinuxFoundationX-LFS101x.
+
+**[Coursera](https://www.coursera.org/)**
+
+* 2015.05 [Coding the Matrix: Linear Algebra through Computer Science Applications](https://www.dropbox.com/s/mkpm0hftdfubdm3/Coursera-Coding\%20the\%20Matrix\_Linear\%20Algebra\%20through\%20Computer\%20Science\%20Applications-Brown\%20Univ    ersity-2015.pdf?dl=0), Brown University.
+
+* 2014.10 [Getting and Cleaning Data](https://www.dropbox.com/s/sn3dozov3ld1trh/Coursera-Getting\%20and\%20Cleaning\%20Data-Johns\%20Hopkins\%20University-2015.pdf?dl=0), Johns Hopkins University.
+
+* 2014.09 [Machine Learning](https://www.dropbox.com/s/jhembz8dmbdwfnb/Coursera-Machine\%20Learning-Stanford\%20University-2015.pdf?dl=0), Stanford University.
+
+* 2014.09 [Preparation for Introductory Biology: DNA to Organisms](https://www.dropbox.com/s/ke98jybe7btb8l9/Coursera-Preparation%20for%20Introductory%20Biology_DNA%20to%20Organisms-University%20of%20California%2C%20Irvine-2015.pdf?dl=0), University of California, Irvine.
+
+* 2014.07 [The Data Scientists Toolbox](https://www.dropbox.com/s/t0i5x2s56qpdm4p/Coursera-The%20Data%20Scientist%E2%80%99s%20Toolbox-Johns%20Hopkins%20University-2015.pdf?dl=0), Johns Hopkins University.
+
+* 2014.07 [R Programming](https://www.dropbox.com/s/emu4c4wv73b3v1r/Coursera-R%20Programming-Johns%20Hopkins%20University-2015.pdf?dl=0), Johns Hopkins University.
+
+* 2014.06 [An Introduction to Interactive Programming in Python](https://www.dropbox.com/s/eid6wxbibul2le3/Coursera-An%20Introduction%20to%20Interactive%20Programming%20in%20Python%2C%20Rice%20University-2015.pdf?dl=0), Rice University.
+
+**[XuetangX](http://www.xuetangx.com/)**
+
+* 2016.07 [Java Programming](http://www.xuetangx.com/download_credential/NTxX8UYDFUG.pdf), Tsinghua University.
+
+* 2015.01 [Oral Communications for EFL Learners](http://www.xuetangx.com/download_credential/BsRe2HUTk8C.pdf), Tsinghua University.
+
+* 2014.12 [Introduction to Psychology](http://www.xuetangx.com/download_credential/smq35THWDpD.pdf), Tsinghua University.
+
+* 2014.06 [Combinatorics](http://www.xuetangx.com/download_credential/79100914f9c231b393409b37d691d790.pdf), Tsinghua University.
+
+* 2014.01 [Data Structures: Part 1](http://www.xuetangx.com/download_credential/ccf76f0c585843fa121cb4d98fa1671a.pdf), Tsinghua University

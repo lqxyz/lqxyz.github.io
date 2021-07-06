@@ -50,7 +50,7 @@ This module gives an introduction to both complex and simple models of weather a
 
 ECMM725, Lead by Dr. [Tim Jupp](http://emps.exeter.ac.uk/mathematics/staff/tej202)
 
-This module introduces the key physical processes determining the behaviour of the Earth's atmosphere and ocean Topics include radiative energy transfer, the structure, motion and thermodynamics of the atmosphere and ocean, the surface energy balance, and the main components of the general circulation (Hadley cells, Walker cells, jet streams etc.).
+This module introduces the key physical processes determining the behaviour of the Earth's atmosphere and ocean. Topics include radiative energy transfer, the structure, motion and thermodynamics of the atmosphere and ocean, the surface energy balance, and the main components of the general circulation (Hadley cells, Walker cells, jet streams etc.).
 
 **Problems**
 

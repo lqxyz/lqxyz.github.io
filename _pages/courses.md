@@ -3,7 +3,7 @@ layout: page
 permalink: /courses/
 title: Courses
 description: Some courses I learned during my PhD and master study.
-nav: true 
+nav: false
 ---
 
 <!-- https://www.w3schools.com/icons/fontawesome5_icons_code.asp -->

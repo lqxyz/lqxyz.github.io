@@ -3,8 +3,8 @@ layout: page
 permalink: /projects/
 title: Projects
 description: Under construction...
-nav: false 
-display_categories: [work, fun]
+nav: true 
+display_categories: [research] #[work, fun]
 horizontal: false
 ---
 <div class="projects">

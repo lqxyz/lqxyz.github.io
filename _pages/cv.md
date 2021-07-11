@@ -15,7 +15,6 @@ nav: true
 
 * MSc in Atmospheric Sciences
    * Department of Earth System Science, [Tsinghua University](http://www.tsinghua.edu.cn/publish/newthuen/index.html), China. 2014.09-2017.07
-   * Supervisor: Prof. Li Liu
    * Thesis topic: Uncertainty arising from internal climate variability
 
 * BSc in Applied Geophysics
@@ -102,5 +101,10 @@ nav: true
 * * *
 
 ### Publications
-
 See [Publications]({{ '/publications/' | relative_url }})
+
+* * *
+
+### Courses 
+See [Courses]({{ '/courses/' | relative_url }})
+

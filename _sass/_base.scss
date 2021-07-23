@@ -373,7 +373,7 @@ footer.sticky-bottom {
     color: $grey-color-light;
     border-top: 1px solid $grey-color-light;
     padding-top: 1rem;
-    margin-top: 2rem;
+    margin-top: -1rem; // 2rem;
     margin-bottom: -2rem;
     text-align: right;
   }
@@ -383,7 +383,7 @@ footer.sticky-bottom {
     margin-top: 0;
 
     li {
-      margin-bottom: 1rem;
+      margin-bottom: -4rem; // 1rem;
       .abbr {
         height: 2rem;
         margin-bottom: 0.5rem;

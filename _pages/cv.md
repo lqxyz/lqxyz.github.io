@@ -9,7 +9,7 @@ nav: false # true
 ### Education
 
 * PhD student in Mathematics
-   * Department of Mathematcis, [University of Exeter](https://www.exeter.ac.uk/), UK. 2017.09-present
+   * Department of Mathematcis, [University of Exeter](https://www.exeter.ac.uk/), UK. 2017.09-2021.10
    * Supervisors: Prof. Matthew Collins and Prof. Geoffrey Vallis
    * Thesis: Understanding climate feedbacks with idealized models
 

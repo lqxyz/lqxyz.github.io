@@ -24,6 +24,8 @@ nav: false # true
 
 ### Conference & Summer School
 ##### Conference
+* Mini-Symposium on Earth System Modelling and Paleoceanography at University of Bern, Switzerland, July 2021 (Virtual)
+
 * Virtual CFMIP meeting on clouds, precipitation, circulation & climate sensitivity, September 2020
 
 * Oral presentation at the PGR Conference, Exeter University, January 2019 
@@ -53,6 +55,11 @@ nav: false # true
 * MTH1002, *Mathematical Method*. Postgraduate teaching assistant. Fall 2018, UoE
 
 * *Experiments on Earth System Model*. Postgraduate teaching assistant. 2015 Sping, THU
+
+* * *
+
+### Academic Services
+* Reviewer of *Journal of Climate*
 
 * * *
 

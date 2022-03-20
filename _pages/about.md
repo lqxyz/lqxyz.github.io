@@ -2,11 +2,11 @@
 layout: about
 title: About
 permalink: /
-description: PhD student at University of Exeter, UK
+description:
 
 profile:
   align: right
-  image: profile_202107.jpg
+  image:
   address: >
 news: true # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
@@ -26,13 +26,3 @@ Prior to coming to UK, I obtained my master degree in atmospheric science and ba
 
 More information can be found in my [CV]({{ '/cv/' | relative_url }}).
 
-<!---
-
-    <p>Address:</p>
-      <p>R919, Laver Building</p>
-      <p>Department of Mathematics</p>
-      <p>University of Exeter</p>
-      <p>North Park Road</p>
-      <p>Exeter, UK, EX4 4QE</p>
-
--->

@@ -59,7 +59,7 @@ nav: false # true
 * * *
 
 ### Academic Services
-* Reviewer of *Journal of Climate*
+* Reviewer of *Journal of Climate*, *Journal of Advances in Modeling Earth Systems (JAMES)*
 
 * * *
 

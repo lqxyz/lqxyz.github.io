@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 2020读书总结
-permalink: /cnblog/2020-reading-summary/
+permalink: /cnblog/2020-reading-summary
 date: 2021-10-23 18:53:00 +0800
 description: 
 tags: book

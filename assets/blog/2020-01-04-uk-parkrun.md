@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 英国的公园跑(Parkrun) 
-permalink: /cnblog/parkrun/
+permalink: /cnblog/parkrun
 date: 2020-01-04 23:56:00 +0800
 description: 
 tags: book

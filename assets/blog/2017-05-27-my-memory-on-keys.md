@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 我所经历的钥匙和锁的演变史
-permalink: /cnblog/my-memory-on-keys/
+permalink: /cnblog/my-memory-on-keys
 date:  2017-05-27 19:00:02 +0800
 description: 
 tags: Chinese

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 我的利器清单
-permalink: /cnblog/my-useful-tools/
+permalink: /cnblog/my-useful-tools
 date: 2019-02-04 01:41:00 +0800
 description: 
 tags: Chinese

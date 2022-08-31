@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 2019读书总结
-permalink: /cnblog/2019-reading-summary/
+permalink: /cnblog/2019-reading-summary
 date: 2020-01-19 20:55:00 +0800
 description: 
 tags: book

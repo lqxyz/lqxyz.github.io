@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 《尼伯龙人之歌》读后
-permalink: /cnblog/song-of-the-Nibelungs/
+permalink: /cnblog/song-of-the-Nibelungs
 date: 2020-12-28 02:06:00 +0800
 description: 
 tags: book

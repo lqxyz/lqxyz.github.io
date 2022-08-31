@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 记忆中的声音
-permalink: /cnblog/sounds-in-my-memory
+permalink: /cnblog/sounds-in-my-memory/
 date: 2017-06-11 11:52 +0800
 description: 
 tags: Chinese

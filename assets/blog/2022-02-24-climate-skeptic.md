@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 写给气候怀疑论者的手册 
-permalink: /cnblog/climate-skeptic
+permalink: /cnblog/climate-skeptic/
 date: 2022-02-24 12:58 +0800
 description: 
 tags: Chinese

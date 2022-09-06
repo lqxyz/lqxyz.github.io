@@ -11,7 +11,7 @@ nav: false # true
 * PhD in Mathematics (Climate Science)
    * Department of Mathematcis, College of Engineering, Mathematics and Physical Sciences, [University of Exeter](https://www.exeter.ac.uk/), UK. 2017.09-2021.10
    * Supervisors: Prof. [Matthew Collins](https://emps.exeter.ac.uk/mathematics/staff/mc369) and Prof. [Geoffrey K. Vallis](http://empslocal.ex.ac.uk/people/staff/gv219/)
-   * Thesis: Understanding climate feedbacks with idealized models [[PDF]](http://hdl.handle.net/10871/128290) [[TeX]](https://github.com/lqxyz/PhD_Thesis)
+   * Thesis: Understanding climate feedbacks with idealized models [PDF from [ORE](http://hdl.handle.net/10871/128290) or [EThOS](https://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.846052)] [[TeX](https://github.com/lqxyz/PhD_Thesis)]
 
 * MSc in Atmospheric Sciences
    * Department of Earth System Science, [Tsinghua University](http://www.tsinghua.edu.cn/publish/newthuen/index.html), China. 2014.09-2017.07

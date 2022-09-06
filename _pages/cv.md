@@ -14,7 +14,7 @@ nav: false # true
    * Thesis: Understanding climate feedbacks with idealized models [PDF from [ORE](http://hdl.handle.net/10871/128290) or [EThOS](https://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.846052)] [[TeX](https://github.com/lqxyz/PhD_Thesis)]
 
 * MSc in Atmospheric Sciences
-   * Department of Earth System Science, [Tsinghua University](http://www.tsinghua.edu.cn/publish/newthuen/index.html), China. 2014.09-2017.07
+   * Department of Earth System Science, [Tsinghua University](http://www.tsinghua.edu.cn/en/), China. 2014.09-2017.07
    * Thesis topic: Uncertainty arising from internal climate variability
 
 * BSc in Applied Geophysics

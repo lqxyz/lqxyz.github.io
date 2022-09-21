@@ -2,8 +2,8 @@
 layout: page
 permalink: /projects/
 title: Projects
-description: Under construction...
-nav: true 
+description:
+nav: true
 display_categories: [research] #[work, fun]
 horizontal: false
 ---

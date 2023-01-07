@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 2022年书·影总结
-permalink: /cnblog/2022-reading-summary
+permalink: /blog/2022-reading-summary
 date: 2022-12-31 13:38:00 +0800
 description: 
 tags: book

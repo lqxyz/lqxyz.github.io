@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 2022春节假期
-permalink: /cnblog/2022-spring-festival
+permalink: /blog/2022-spring-festival
 date: 2022-02-06 19:00 +0800
 description: 
 tags: Chinese

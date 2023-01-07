@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 皇家学会院士也是常人，也会有「冒名顶替综合症」
-permalink: /cnblog/imposter-syndrome
+permalink: /blog/imposter-syndrome
 date: 2022-09-24 09:01 +0800
 description: 
 tags: Chinese

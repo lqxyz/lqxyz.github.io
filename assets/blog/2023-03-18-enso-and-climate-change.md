@@ -3,9 +3,9 @@ layout: post
 title: 【译文】厄尔尼诺现象可能考验我们气候知识的极限
 permalink: /blog/enso-and-climate-change
 date: 2023-03-18 18:33:00 +0800
-description: 
-tags: climate 
-categories: essay 
+description:
+tags: climate
+categories: essay
 ---
 
 *译自: [How El Niño May Test the Limits of Our Climate Knowledge](https://time.com/6263513/el-nino-may-test-understanding-climate-change/), 作者: [Adam H. Sobel](https://adamsobel.org/)是美国哥伦比亚大学（University of Columbia）的大气科学家和教授，播客"[Deep Convection](https://deep-convection.org/)"的主持人，也是关于超级飓风桑迪的科普书籍《风暴潮[Storm Surge](https://adamsobel.org/stormsurge/)》的作者。Deep Convection是一档气候领域科学家的深度访谈节目，比较喜欢节目的风格，Sobel一般会从访谈者的生平谈起，让他们叙述自己从小走上科学道路的历程。原文发表于2023年3月17日。*

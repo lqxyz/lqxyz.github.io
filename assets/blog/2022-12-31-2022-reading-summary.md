@@ -3,9 +3,9 @@ layout: post
 title: 2022年书·影总结
 permalink: /blog/2022-reading-summary
 date: 2022-12-31 13:38:00 +0800
-description: 
+description:
 tags: book
-categories: essay 
+categories: essay
 ---
 
 2022年似乎是近几年看书最多的一年，全年看完的书总计61本。原因也非常简单，刚开始工作后周末时间比较多，乱翻书有时成了周末的习惯。之前总是畏惧书的厚度，但慢慢也发现，一本不太厚的中文书看几个小时也就看完了；看英文书的速度还是比较慢，但是坚持下来也能把一些大部头的书看完了。

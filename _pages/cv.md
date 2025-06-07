@@ -64,6 +64,10 @@ nav: false # true
 * * *
 
 ### Honors & Awards
+*   Excellence Award for "Data Elements x" Competition on Meteorological Services, Guangdong, China, 2024
+
+*   [Second Prize](https://www.dropbox.com/scl/fi/h9dhqkwx1ivwekahl7885/fintech_development_award_pboc.jpeg?rlkey=sdm8qri9qg49j6aseenqvvxp7&dl=0) forFinancial Technology Development Award, People's Bank of China, 2023
+
 * Joint PhD Scholarship from University of Exeter and China Scholarship Council, 2017-2021
 
 * [Outstanding Volunteer](https://www.dropbox.com/s/k340ppd9m3fxsom/ICIAM2015.PDF?dl=0) of 8th International Congress on Industrial and Applied Mathematics (ICIAM), Executive Committee of ICIAM, 2015

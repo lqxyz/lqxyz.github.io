@@ -25,7 +25,7 @@ nav: false
 
 ### Work 
 
-* 2025.10 - , Researcher at Guangdong-Hong Kong-Macao Greater Bay Area Weather Resarch Center for Monitoring Warning and Forecasting (Shenzhen Institute of Meteorological Innovation, [GBA-MWF](https://weather.sz.gov.cn/gbamwf/))
+* 2025.10 - Present, Researcher at Guangdong-Hong Kong-Macao Greater Bay Area Weather Research Center for Monitoring Warning and Forecasting (Shenzhen Institute of Meteorological Innovation, [GBA-MWF](https://weather.sz.gov.cn/gbamwf/))
 
 * 2022.02 - 2025.10, Senior Algorithm Engineer (Natural Hazard and AI),  [Ping An](https://group.pingan.com/) Property & Casualty Insurance Company of China 
 
